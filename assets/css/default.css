@@ -1,4 +1,13 @@
-.border{
-	display: block;
-	width: 70px;
+.person-img{
+  height: 93px;
+  width: 93px !important;
+  margin: 10px 0px 20px 0px;
+}
+.testimonial{
+  padding-bottom: 2%;
+  width: 75%;
+  margin: auto;
+}
+.testimonial > h5{
+  margin: 0px;
 }
