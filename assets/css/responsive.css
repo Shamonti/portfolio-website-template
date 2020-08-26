@@ -1,7 +1,67 @@
 @media only screen and (max-width: 575px){
   /*Mobile Phones*/
+  .section-wrapper{
+    padding-top: 70px;
+    padding-bottom: 85px;
+  }
+  .heading span{
+    position: absolute;
+    top: -9px;
+    left: 16%;
+    letter-spacing: 0.1rem;
+  }
+  .bg-dark .heading span {
+    left: 10%;
+    top: -11px;
+    letter-spacing: 0.2rem;
+    font-size: 2.8rem;
+  }
+  .navbar{
+    padding: 0.5rem 1rem !important;
+  }
+  footer .navbar-nav .nav-item{
+    display: none !important;
+  }
+  .banner-bg{
+    background-image: none;
+  }
+  .banner-text{
+    padding: 1rem 1rem;
+  }
+  .social-icons-list ul li {
+    margin: 0px 5px;
 }
-
+.hireme .btn-default {
+  width: 55%;
+}
+.navbar .btn-default {
+  margin-left: 0;
+}
+}
 @media only screen and (min-width: 576px) and (max-width: 991px){
   /*Tablets*/
+  .heading span{
+    position: absolute;
+    top: -9px;
+    left: 30%;
+    letter-spacing: 0.2rem;
+  }
+  .bg-dark .heading span {
+    position: absolute;
+    left: 28%;
+    top: -11px;
+  }
+  footer .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 0.5rem !important;
+    padding-left: 1rem !important;
+  }
+  .hireme .btn-default {
+    width: 70%;
+  }
+  .banner-text{
+    padding: 1rem 2rem;
+  }
+  .banner-bg{
+    background-image: none !important;
+  }
 }
